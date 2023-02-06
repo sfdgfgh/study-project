@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?p4ssmb');
+    src:  url('../fonts/icomoon.eot?p4ssmb#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?p4ssmb') format('truetype'),
+      url('../fonts/icomoon.woff?p4ssmb') format('woff'),
+      url('../fonts/icomoon.svg?p4ssmb#icomoon') format('svg');
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    height: 84px;
+    line-height: 84px;
+    border-bottom: 1px solid #c81623;
+}
+.subject {
+    margin-top: 20px;
+    height: 520px;
+    border: 1px solid #dfdfdf;
+}
+.hd {
+    padding: 0 12px;
+    height: 42px;
+    line-height: 42px;
+    background: #ececec;
+}
+.hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+.hd p {
+    display: inline;
+    color: #333333;
+}
+.hd a {
+    float: right;
+    font-size: 14px;
+    color: #c81623;
+}
+.bd {
+    width: 550px;
+    margin: 50px auto 0;
+}
+.bd ul li {
+    padding-bottom: 15px;
+}
+.bd ul li label {
+    display: inline-block;
+    width: 88px;
+    height: 20px;
+    text-align: right;
+    font-size: 14px;
+}
+.bd ul li input {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #999999;
+}
+.error {
+    color: #e12d2c;
+}
+.error_icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    background: url(../image/矩形8.png) no-repeat;
+}
+.safe {
+    margin-left: 172px;
+}
+.ruo,.zhong,.qiang {
+    color: #fff;
+    padding: 0 11px;
+    background: #e10800;
+}
+.zhong {
+    background: #39ba36;
+}
+.qiang {
+    background: #f99200;
+}
+.agree {
+    margin: 33px 0 40px;
+}
+.bd ul li input[type=checkbox]{
+    margin:-2px 0 0 88px;
+    width: 20px;
+    height: 15px;
+    vertical-align: middle;
+}
+.agree a {
+    color: #43aeec;
+}
+button {
+    margin-left: 103px;
+    width: 200px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background: #ca111a;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+.copyright{
+    margin-top: 8px;
+}

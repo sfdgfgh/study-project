@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?p4ssmb');
+    src:  url('../fonts/icomoon.eot?p4ssmb#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?p4ssmb') format('truetype'),
+      url('../fonts/icomoon.woff?p4ssmb') format('woff'),
+      url('../fonts/icomoon.svg?p4ssmb#icomoon') format('svg');
+}
+.sk {
+    position: absolute;
+    top: 42px;
+    left: 190px;
+    padding: 0 14px;
+    height: 31px;
+    border-left: 1px solid #b1191a;
+}
+.sk_list ul li  {
+    float: left;
+    padding: 0 26px;
+    line-height: 35px;
+    font-size: 16px; 
+}
+.sk_cont ul li {
+    float: left;
+    padding: 0 23px;
+    line-height: 35px;
+    font-size: 14px;
+}
+.sk_cont ul li:last-child a:after {
+    content:'\e905';
+    font-family: 'icomoon';
+}
+.sk_bd {
+    margin-top: 12px;
+    margin-bottom: 280px;
+}
+.sk_bd ul {
+    overflow: hidden;
+    width: 1216px;
+}
+.sk_bd ul li {
+    width: 290px;
+    height: 460px;
+    float: left;
+    margin-right: 14px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #e60012;
+}
+.sk_bd img {
+    width: 100%;
+}
+.sk_bd h3 {
+    padding-left: 12px;
+    padding-bottom: 9px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.sk_bd i {
+    padding-left: 12px;
+    padding-right: 5px;
+    font-size: 22px;
+    color: #e60012;
+   
+}
+.sk_bd em {
+    font-size: 14px;
+    color: #a9a9a9;
+    text-decoration-line:line-through;
+}
+ .quantity {
+    position: relative;
+    padding-left: 12px;
+    height: 29px;
+} 
+.quantity i {
+    padding: 0;
+    font-size: 16px;
+}
+.quantity .Surplus::before {
+    content:'';
+    display: inline-block;
+    margin: 0 8px 0 4px;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #b1191a;
+    border-radius: 6px;
+}
+.quantity i::before {
+    content:'';
+    position: absolute;
+    top: 5px;
+    left: 64px;
+    display: inline-block;
+    margin: 0 8px 0 4px;
+    width: 118px;
+    height: 12px;
+    background: #b1191a;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+ .purchase {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+     text-align: center; 
+    color: #fff;
+    background: #b1191a;
+}
